@@ -8,6 +8,10 @@ public class Producer extends Thread{
         this.data = data;
     }
 
+
+    /**
+     * Generate a number between 1 and 10 and sends it to data class in every seconds.
+     */
     @Override
     public void run() {
         super.run();

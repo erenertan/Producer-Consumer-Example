@@ -16,6 +16,9 @@ public class Consumer extends Thread{
         this.l = l;
     }
 
+    /**
+     * Always calls consume method from data class in every seconds.
+     */
     @Override
     public void run() {
         super.run();
